@@ -24,6 +24,13 @@
     background-color: #FCF3F5;
     background-attachment: fixed;
 }
+.main--section1__contTituloParrafo--parrafo__iconInicio {
+    margin: 2em;
+    animation-name: saltar;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
 
 /* ///////////////////// */
 .main--section2 {
