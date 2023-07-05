@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+
+}
+.header--nav{
+    width: 100%;
+    height: 80px;
+    background-color: #f8ab99;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.header--nav__section1{
+    width: 10%;
+}
+.header--nav__section1--logo{
+    width: 70%;
+    padding: 1em;
+}
+.header--nav__section2{
+    width: 560px;
+}
+.header--nav__section2--link{
+    margin: 35px;
+    text-decoration: none;
+    color: #FCF3F5;
+}

@@ -1,0 +1,235 @@
+/* Root */
+
+/* btn-whatsapp */
+.btnWhatsapp{
+    background-color: #E96D55;
+    padding: 0.5em;
+    border-radius: 30px;
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438);
+}
+.btnWhatsapp:hover{
+    cursor: pointer;
+    background-color: #e96e55d7;
+}
+
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+/* Seccion 1 */
+
+.main--section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 88vh;
+    background-image: url(/source/img/logonav2.png);
+    background-repeat: no-repeat;
+    background-position-x:-90px ;
+    background-position-y:153px ;
+    background-color: #FCF3F5;
+    background-attachment: fixed;
+
+}
+.main--section1__contTituloParrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0.1;
+    }
+    10% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.3;
+    }
+    30% {
+        opacity: 0.4;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.main--section1__contTituloParrafo--titulo{
+    font-size: 90px;
+    text-align: center;
+}
+.main--section1__contTituloParrafo--parrafo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.main--section1__contTituloParrafo--parrafo__iconInicio {
+    margin: 1em;
+    animation-name: saltar;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.main--section1__contTituloParrafo--parrafo__iconInicio:hover{
+    cursor: pointer;
+}
+
+@keyframes saltar {
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(4px);
+    }
+    20% {
+        transform: translateY(8px);
+    }
+    30% {
+        transform: translateY(12px);
+    }
+    40% {
+        transform: translateY(8px);
+    }
+    50% {
+        transform: translateY(4px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Seccion 2 */
+
+.main--section2{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0px;
+}
+
+.main--section2__contTitulo2Parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+
+.main--section2__contTitulo2Parrafo--Titulo2{
+    font-size: 50px;
+    width: 500px;
+    height: 100px;
+}
+
+.main--section2__contTitulo2Parrafo--Parrafos{
+    width: 500px;
+    font-size: 20px;
+}
+
+.main--section2__contParrafosder{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 600px;
+    background-color: #e9280e;
+    width: 400px;
+    background-image: url(/source/img/Marca\ agua\ tulipan.png);
+    background-repeat: no-repeat;
+    background-position-x:0px;
+    background-position-y: 300px;
+    background-size: 200px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.main--section2__contParrafosder--Parrafos{
+    font-size: 26px;
+    width: 220px;
+    height: 250px;
+}
+
+.main--section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    margin: 3em 0em;
+}
+.main--section3__ContTitulo{
+    font-size: 24px;
+    height: 100px;
+
+}
+.hr-main--section3__ContTitulo{
+    margin: 1em 0em;
+    background-color: #E96D55;
+    color: #e9280e;
+    height: 2px;
+    border: none;
+}
+.main--section3__ContenedorCajas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    height: 600px;
+}
+
+.main--section3__ContenedorCajas__Contcajas{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.164);
+}
+.main--section3__ContenedorCajas__Contcajas:hover{
+    box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+}
+.main--section3__ContenedorCajas__Contcajas--titulo{
+    text-align: center;
+}
+.main--section3__ContenedorCajas__Contcajas--parrafo{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
