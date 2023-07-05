@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 87vh;
+    height: 84vh;
     background-image: url(/source/img/logonav2.png);
     background-repeat: no-repeat;
     background-position-x: -102px;
@@ -87,7 +87,7 @@
     align-items: center;
     background-color: white;
     margin: 3em 0em;
-    height: 1700px;
+    height: 1550px;
 }
 .main--section3__ContenedorCajas {
     display: flex;
