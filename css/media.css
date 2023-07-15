@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 84vh;
+    height: 82vh;
     background-image: url(/source/img/logonav2.png);
     background-repeat: no-repeat;
     background-position-x: -102px;
@@ -24,18 +24,11 @@
     background-color: #FCF3F5;
     background-attachment: fixed;
 }
-.main--section1__contTituloParrafo--parrafo__iconInicio {
-    margin: 2em;
-    animation-name: saltar;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
 
 /* ///////////////////// */
 .main--section2 {
     background-color: white;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     /* margin: 80px 0px; */
@@ -44,7 +37,7 @@
 .main--section2__contTitulo2Parrafo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -52,8 +45,7 @@
 .main--section2__contTitulo2Parrafo--Parrafos {
     width: 100%;
     font-size: 20px;
-    padding: 27px;
-    margin:0.6em;
+    padding: 10px;
 }
 .main--section2__contTitulo2Parrafo--Titulo2 {
     font-size: 30px;
@@ -67,6 +59,9 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
+    /* height: 112vh; */
+    /* height: 800px; */
+    margin: 3em 0em;
     height: 1700px;
 }
 .main--section3__ContTitulo {
@@ -87,14 +82,6 @@
 }
 .main--section2__contParrafosder{
     display: none;
-}
-.main--section3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    margin: 3em 0em;
-    height: 1550px;
 }
 .main--section3__ContenedorCajas {
     display: flex;
