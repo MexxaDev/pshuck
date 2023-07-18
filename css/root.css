@@ -5,3 +5,21 @@
     scroll-behavior: smooth;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* btn-whatsapp */
+.btnWhatsapp{
+    background-color: #E96D55;
+    padding: 0.5em;
+    border-radius: 30px;
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438);
+}
+.btnWhatsapp:hover{
+    cursor: pointer;
+    background-color: #e96e55d7;
+}
+ul{
+    list-style-image: url(../source/check.svg);
+}

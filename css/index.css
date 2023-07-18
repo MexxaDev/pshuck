@@ -1,20 +1,6 @@
 /* Root */
 
-/* btn-whatsapp */
-.btnWhatsapp{
-    background-color: #E96D55;
-    padding: 0.5em;
-    border-radius: 30px;
-    display: inline-block;
-    position: fixed;
-    bottom: 50px;
-    right: 40px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438);
-}
-.btnWhatsapp:hover{
-    cursor: pointer;
-    background-color: #e96e55d7;
-}
+
 
 
 /* main */
@@ -151,14 +137,14 @@ main{
     width: 500px;
     font-size: 20px;
 }
-
+.main--section2__contParrafosder--img{
+    filter:drop-shadow(1px 1px 3px #888)
+}
 .main--section2__contParrafosder{
-    margin-top: 50px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     height: 600px;
-    background-color: #e9280e;
     width: 400px;
     background-image: url(/source/img/Marca\ agua\ tulipan.png);
     background-repeat: no-repeat;
@@ -166,7 +152,7 @@ main{
     background-position-y: 300px;
     background-size: 200px;
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .main--section2__contParrafosder--Parrafos{
@@ -232,4 +218,7 @@ main{
     height: 150px;
     text-align: center;
     padding: 20px;
+}
+.main--section3__ContenedorCajas__Contcajas--img{
+    width: 70%;
 }
