@@ -26,3 +26,32 @@ header{
     text-decoration: none;
     color: #FCF3F5;
 }
+
+
+.header--navMobile{
+    width: 100%;
+    background-color: #f8ab99;
+    display: flex;
+    flex-direction: column;
+}
+details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    list-style-image: url(/source/check.svg);
+    padding: 0.3em;
+}
+#burgerXIcon{
+    display: none;
+}
+details > summary {
+    list-style-type: none;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
