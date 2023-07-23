@@ -159,11 +159,11 @@
     margin-top: 4px;
 }
 .main--servicios__section3 {
-    height: 100vh;
+    height: 89vh;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
     width: 100%;
