@@ -1,0 +1,123 @@
+.main--sobremi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main--sobremi__section1{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.main--sobremi__section1--img{
+    width: 33%;
+    padding: 3em;
+    border-radius: 60px;
+}
+.main--sobremi__section1--containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-top: 5%;
+    background-image: url(/source/img/logonav2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 10%;
+    background-position-y:98% ;
+
+}
+.main--sobremi__section1--containerText__titulo{
+    margin: 1em 0em;
+    text-decoration: 3px underline #e9280e;
+
+}
+.main--sobremi__section1--containerText--parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    margin-top: 5%;
+    line-height: 30px;
+
+}
+.main--sobremi__section1--containerText__lista{
+    list-style: outside;
+    font-weight: bold;
+    line-height: 30px;
+}
+.main--sobremi__section1--containerText__lista--elemento__span{
+    color: rgba(75, 75, 75, 0.486);
+    font-size: 12px;
+}
+/* Seccion 2 sobremi */
+.main--sobremi__section2{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.main--sobremi__section2--containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 60%;
+    background-image: url(/source/img/logonav2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 10%;
+    background-position-y:98% ;
+}
+
+.main--sobremi__section2--containerText__titulo{
+    margin: 1em 0em;
+    text-decoration: 3px underline #e9280e;
+}
+.main--sobremi__section2--containerText__parrafo{
+    width: 80%;
+    line-height: 30px;
+}
+
+.main--sobremi__section2--img{
+    width: 33%;
+    padding: 3em;
+    border-radius: 60px;
+}
+
+/* Seccion 3 sobremi */
+.main--sobremi__section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main--sobremi__section3--containerText{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main--sobremi__section3--containerText__parrafo{
+    width: 80%;
+    line-height: 30px;
+}
+hr{
+    width: 30%;
+    text-align: center;
+    margin: 1em;
+    height: 5px;
+    background-color: black;
+}
+.main--sobremi__section3--img{
+    width: 33%;
+    padding: 3em;
+    border-radius: 60px;
+}

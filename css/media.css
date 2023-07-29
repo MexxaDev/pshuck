@@ -238,9 +238,11 @@ element.style {
 }
 
 @media (min-width: 1024px){
+    .main--section2__contParrafosder{
+        width: 450px;
+    }
     .main--section2__contParrafosder--img {
-        filter: drop-shadow(1px 1px 3px #888);
-        width: 60%;
+        width: 100%;
     }
     .header--nav{
         display: flex;
