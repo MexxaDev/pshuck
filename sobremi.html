@@ -14,14 +14,37 @@
     <header class="header">
         <nav class="header--nav">
             <section class="header--nav__section1">
-                <img src="source/img/logonav2.png" alt="logoNav" class="header--nav__section1--logo">
+                <img src="source/img/logonav2.png" alt="x" class="header--nav__section1--logo">
             </section>
             <section class="header--nav__section2">
                 <a class="header--nav__section2--link" href="index.html">Inicio</a>
                 <a class="header--nav__section2--link" href="servicios.html">Servicios</a>
                 <a class="header--nav__section2--link" href="sobremi.html">Sobre mi</a>
-                <a class="header--nav__section2--link" href="">Contacto</a>
+                <a class="header--nav__section2--link" href="#">Contacto</a>
             </section>
+        </nav>
+        <nav class="header--navMobile">
+            <details id="burgermenu" >
+                <summary>
+                    <svg onclick="abrir()" id="burgerIcon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                  </svg>
+                  <svg id="burgerXIcon" onclick='cerrar()' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                  </svg>
+                </summary>
+                <ol>
+                    <li><a class="header--nav__section2--link" href="index.html">Inicio</a></li>
+                    <li><a class="header--nav__section2--link" href="servicios.html">Servicios</a></li>
+                    <li><a class="header--nav__section2--link" href="sobremi.html">Sobre mi</a></li>
+                    <li><a class="header--nav__section2--link" href="#">Contacto</a></li>
+                </ol>
+            </details>
         </nav>
     </header>
     <main class="main--sobremi">
