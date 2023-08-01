@@ -129,7 +129,7 @@ main{
 .main--section2__contTitulo2Parrafo--Titulo2{
     font-size: 50px;
     width: 500px;
-    height: 180px;
+    height: auto;
 }
 
 .main--section2__contTitulo2Parrafo--Parrafos{
