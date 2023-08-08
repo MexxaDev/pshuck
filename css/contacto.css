@@ -1,0 +1,51 @@
+.main--contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.main--contacto__section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 40%;
+}
+.main--contacto__section1--img{
+    width: 55%
+}
+.main--contacto__section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main--contacto__section2--link {
+    height: 75px;
+    width: 350px;
+    margin: 1em 0em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+.iconLink{
+    margin: 1em;
+}
+.linkTelegram{
+    background-color: #38B0E3;
+}
+.linkCorreo{
+    background-color: #D44C3D;
+}
+.linkFacebook{
+    background-color: #1877F2;
+}
+.linkInstagram{
+    background-color:#D13282 ;
+}
+a{
+    text-decoration: none;
+}

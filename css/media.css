@@ -19,9 +19,9 @@
     .main--section1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        height: 90vh;
+        /* height: 90vh; */
         background-image: url(/source/img/logonav2.png);
         background-repeat: no-repeat;
         background-position-x: -102px;
@@ -31,10 +31,10 @@
     }
     .main--section2 {
         background-color: white;
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-wrap: wrap;
-        width: 95%;
+        /* width: 95%; */
         margin: 40px 0px;
     }
     .main--section2__contTitulo2Parrafo {
@@ -239,7 +239,62 @@ element.style {
     background-color: chocolate;
     border: none;
 }
+/* Sobre mi */
+
+.main--sobremi__section1 {
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    flex-direction: column-reverse;
+    margin: 3em;
 }
+.main--sobremi__section1--img {
+    width: 100%;
+    padding: 3em;
+    border-radius: 60px;
+}
+.main--sobremi__section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main--sobremi__section3--img {
+    width: 100%;
+    /* width: 33%; */
+    /* padding: 3em; */
+    /* border-radius: 60px; */
+}
+
+/* Conctacto */
+.main--contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.main--contacto__section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    padding: 1em;
+}
+.main--contacto__section2--titulo{
+    text-align: center;
+}
+.main--contacto__section1 {
+display: none;
+}
+.main--contacto__section2--link {
+width: auto;
+}
+}
+
+
 
 @media (min-width: 1024px){
     .main--section2__contParrafosder{
