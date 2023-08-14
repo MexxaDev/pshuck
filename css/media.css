@@ -292,6 +292,25 @@ display: none;
 .main--contacto__section2--link {
 width: auto;
 }
+
+
+
+.main--educacion__section1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.main--educacion__section1--container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+    margin-top: 50px;
+}
 }
 
 
@@ -309,6 +328,8 @@ width: auto;
     .header--navMobile{
         display: none;
     }
+
+
 }
 
 

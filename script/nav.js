@@ -3,7 +3,7 @@ var burgerIcon = document.getElementById("burgerIcon");
 var burgerClosed = document.getElementById("burgerXIcon");
 
 function abrir (){
-    burgermenu.style.height = "200px";
+    burgermenu.style.height = "240px";
     burgerIcon.style.display = "none";
     burgerClosed.style.display = "block";
 }

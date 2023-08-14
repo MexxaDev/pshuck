@@ -18,14 +18,13 @@ header{
     padding: 1em;
 }
 .header--nav__section2{
-    width: 560px;
+    width: 780px;
 }
 .header--nav__section2--link{
     margin: 35px;
     text-decoration: none;
     color: #FCF3F5;
 }
-
 
 .header--navMobile{
     width: 100%;
